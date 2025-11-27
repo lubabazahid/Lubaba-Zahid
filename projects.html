@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects - Lubaba Zahid</title>
+
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: #a00000; /* Red background */
+      color: #2C2C2C;
+    }
+
+    /* Minimal NAVBAR */
+    nav {
+      background-color: white; 
+      padding: 18px;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    }
+
+    nav a {
+      color: #a00000; 
+      margin: 0 25px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 18px;
+      transition: 0.3s;
+    }
+
+    nav a i {
+      margin-right: 8px;
+    }
+
+    nav a:hover {
+      color: #d32f2f;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .section {
+      background: #FFFFFF;
+      margin-bottom: 30px;
+      padding: 25px 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .section:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 6px 25px rgba(0,0,0,0.15);
+    }
+
+    h2 {
+      color: #a00000; 
+      margin-bottom: 12px;
+      font-size: 26px;
+    }
+
+    h2 i {
+      margin-right: 10px;
+      color: #d32f2f;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    ul li {
+      margin-bottom: 8px;
+      font-size: 17px;
+    }
+
+    .photo-gallery img {
+      width: 200px;
+      border-radius: 8px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .photo-gallery img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 25px rgba(0,0,0,0.15);
+    }
+
+    footer {
+      text-align: center;
+      padding: 12px 0;
+      background: white;
+      color: #a00000;
+      margin-top: 40px;
+      font-size: 14px;
+      font-weight: 600;
+      border-top: 2px solid #ffffff55;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Minimal Navbar -->
+  <nav>
+    <a href="index.html"><i class="fa-solid fa-user"></i>About Us</a>
+    <a href="projects.html"><i class="fa-solid fa-briefcase"></i>Projects</a>
+  </nav>
+
+  <div class="container">
+
+    <!-- Work Experience Section -->
+    <div class="section">
+      <h2><i class="fa-solid fa-briefcase"></i>Work Experience</h2>
+      <p>I am currently a student in Semester 1, focusing on building web development foundations.  
+      During this time, I have practiced HTML, CSS, and basic project layouts to improve my web design skills.</p>
+    </div>
+
+    <!-- Skills Section -->
+    <div class="section">
+      <h2><i class="fa-solid fa-lightbulb"></i>Skills</h2>
+      <ul>
+        <li><i class="fa-brands fa-html5"></i> Semantic HTML</li>
+        <li><i class="fa-brands fa-css3-alt"></i> Responsive CSS</li>
+        <li><i class="fa-solid fa-font"></i> Basic Typography Design</li>
+        <li><i class="fa-brands fa-github"></i> Version Control (GitHub)</li>
+        <li><i class="fa-solid fa-code"></i> Basic C++</li>
+        <li><i class="fa-brands fa-canva"></i> Canva Designing</li>
+      </ul>
+    </div>
+
+    <!-- Projects Section -->
+    <div class="section">
+      <h2><i class="fa-solid fa-code"></i>Projects</h2>
+      <ul>
+        <li>2-Page Portfolio Website (HTML & CSS)</li>
+        <li>Calculator Layout UI</li>
+        <li>Profile Card Web Component</li>
+      </ul>
+    </div>
+
+    <!-- Photos Section -->
+    <div class="section">
+      <h2><i class="fa-solid fa-image"></i>Photos</h2>
+      <div class="photo-gallery" style="display: flex; flex-wrap: wrap; gap: 15px;">
+        <img src="photo1.jpg" alt="Project Photo 1">
+        <img src="photo2.jpg" alt="Project Photo 2">
+        <img src="photo3.jpg" alt="Project Photo 3">
+      </div>
+    </div>
+
+  </div>
+
+  <footer>
+    © 2025 Lubaba Zahid | Portfolio Project
+  </footer>
+
+</body>
+</html>
